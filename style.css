@@ -1,0 +1,83 @@
+h1 {
+  color:#7b8690;
+  font-size: 30px;
+  background-color:#e7f2fe;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  image-resolution: 30px;
+  text-align: center;
+}
+
+ul > li{
+  display: inline-block;
+  margin: 25px;
+}
+
+h2 {
+  color:#7b8690;
+  font-size: 30px;
+  background-color:#e7f2fe;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  image-resolution: 30px;
+}
+
+body {
+  text-align: center;
+  background-color: #6297c1;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: normal;
+}
+
+#vasco{
+  color: #7b8690;
+}
+
+#vasco:hover {
+  color: black
+}
+
+.normal-box {
+  background-color: #e7f2fe;
+  border: 5px solid #808080;
+  border-radius: 25px;
+  box-shadow: 30 30px 30px rgba(170, 14, 14, 0.1);
+  padding: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  align-self: auto;
+  text-align: center;
+
+}
+
+
+#imagem {
+height: 260px;
+width: 260px;
+border-radius: 50%;
+border-top: 5px solid black;
+border-right: 5px solid black;
+border-bottom: 5px solid black;
+border-left: 5px solid black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
